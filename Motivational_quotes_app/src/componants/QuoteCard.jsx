@@ -12,7 +12,8 @@ const QuoteCard = ({ quote, author, fontSize, theme, liked, onLikeToggle }) => {
         boxShadow: "0 4px 10px rgba(0,0,0,0.2)",
       }}
     >
-      <p style={{ fontSize, fontStyle: "italic",color:"red" }}>"{quote}"</p>
+      <p style={{ fontSize, fontStyle: "italic", color: "red" }}>"{quote}"</p>
+      👍👌
       <p style={{ textAlign: "right", marginTop: "10px", fontWeight: "bold" }}>
         - {author}
       </p>
